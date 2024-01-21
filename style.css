@@ -1,0 +1,210 @@
+body{
+    font-family: "Merriweather", serif;
+    text-align: center;
+    width: 100%;
+    min-width: 720px;
+}
+
+.top-container{
+    background-color: rgba(174, 223, 223, 0.384);
+    position: relative;
+    padding-top: 50px;
+
+}
+
+span{
+    text-decoration: underline;
+}
+
+.title-text{
+    padding-top: 150px;
+    color: rgb(102, 184, 183);
+}
+
+h1{
+    font-size: 6.8rem;
+    font-family: "Sacramento", cursive;
+    font-weight: bolder;
+    margin: 35px auto 30px auto;
+
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    color: rgb(102, 184, 183);
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.topcloud-img{
+    height: 100px;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottomcloud-img{
+    position: absolute;
+    left: 220px;
+    height: 100px;
+    bottom: 200px;
+}
+
+.middle-container{
+    margin: 100px auto;
+}
+
+.profile-img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.intro{
+    width: 50%;
+    margin: auto ;
+    line-height: 2;
+    font-size: large;
+}
+
+hr{
+    width: 5%;
+    margin: 120px auto;
+    border: dotted 6px;
+    border-bottom: none;  
+}
+
+.parent{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1,1fr);
+    margin: 50px auto;
+    text-align: start;
+    row-gap: 5rem ;
+    font-size: large;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(102, 184, 183);
+
+}
+
+.figma-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.education-details{
+    margin: 50px auto;
+    text-align: left;
+    table-layout: auto;
+    width: 50%;
+    font-size: larger;
+}
+
+.thead{
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.tdata{
+    font-size: medium;
+}
+
+table,th,td{
+    padding: 10px;
+    border: double ;
+    border-collapse: separate;
+    border-color: #7cd4d4;
+}
+
+.h-title{
+    font-size: 2.5rem;
+}
+
+.contact{
+    width: 50%;
+    margin: auto;
+}
+
+
+button{
+    text-transform: uppercase;
+    padding: 10px 35px;
+    font-size: 1rem;
+    margin: 40px auto;
+    border-radius: 10px;
+    background-color: rgb(102, 184, 183);
+    color: white;
+    border: navajowhite;
+}
+
+button:hover{
+    background-color: rgb(67, 146, 152);
+}
+
+.footer{
+    background-color: #66bfbf;
+    margin: 0;
+    width: 100%;
+}
+
+.links{
+    display: flex;
+    padding: 70px 0px 50px 0;
+    justify-content: center;
+    gap: 50px;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+    color: #1a7979bf;
+    font-family: "Montserrat", sans-serif;
+}
+
+a:hover{
+    color: white;
+    
+}
+
+.name{
+    padding-bottom: 50px;
+    color: azure;
+}
+
+.cont{
+    margin-top: 20px;
+}
+
+.d-d > h3{
+    font-size: larger;
+    font-weight: 700;
+
+}
+
+.d-d > p{
+    font-size: large;
+    line-height: 2;
+}
+
+.figma-text > h3{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.figma-text > p{
+    font-size: large;
+    line-height: 2;
+
+}
